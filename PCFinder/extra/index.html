@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <form action="{{url_for('questions')}}" method="post">
+        <div>
+          <label for="budget">1. What is your price range?</label><br>
+          <input type="radio" id="less-than-500" name="budget" value="less than $500">
+          <label for="less-than-500">Less than $500</label><br>
+          <input type="radio" id="500-to-1000" name="budget" value="$500-$1000">
+          <label for="500-to-1000">$500-$1000</label><br>
+          <input type="radio" id="1000-to-1500" name="budget" value="$1000-$1500">
+          <label for="1000-to-1500">$1000-$1500</label><br>
+          <input type="radio" id="more-than-1500" name="budget" value="more than $1500">
+          <label for="more-than-1500">More than $1500</label><br>
+        </div>
+      
+        <div>
+          <label for="os">2. Which operating system do you prefer?</label><br>
+          <input type="radio" id="windows" name="os" value="Windows">
+          <label for="windows">Windows</label><br>
+          <input type="radio" id="macos" name="os" value="MacOS">
+          <label for="macos">MacOS</label><br>
+          <input type="radio" id="linux" name="os" value="Linux">
+          <label for="linux">Linux</label><br>
+        </div>
+      
+        <div>
+          <label for="primaryuse">3. What will be the primary use of your laptop?</label><br>
+          <input type="radio" id="gaming" name="primaryuse" value="Gaming">
+          <label for="gaming">Gaming</label><br>
+          <input type="radio" id="work" name="primaryuse" value="Work">
+          <label for="work">Work</label><br>
+          <input type="radio" id="school" name="primaryuse" value="School">
+          <label for="school">School</label><br>
+        </div>
+      
+        <div>
+          <label for="battery">4. How important is battery life to you?</label><br>
+          <input type="radio" id="not-important" name="battery" value="Not Important">
+          <label for="not-important">Not Important</label><br>
+          <input type="radio" id="somewhat-important" name="battery" value="Somewhat Important">
+          <label for="somewhat-important">Somewhat Important</label><br>
+          <input type="radio" id="very-important" name="battery" value="Very Important">
+          <label for="very-important">Very Important</label><br>
+        </div>
+      
+        <div>
+            <label for="ram">5. How much ram do you need?</label><br>
+            <input type="radio" id="4gb" name="ram" value="4GB">
+            <label for="4gb">4GB</label><br>
+            <input type="radio" id="8gb" name="ram" value="8GB">
+            <label for="8gb">8GB</label><br>
+            <input type="radio" id="16gb" name="ram" value="16GB">
+            <label for="16gb">16GB</label><br>
+          </div>
+          <div>
+            <label for="storage">6. How much storage do you need?</label><br>
+            <input type="radio" id="256gb" name="storage" value="256GB">
+            <label for="256gb">256GB</label><br>
+            <input type="radio" id="512gb" name="storage" value="512GB">
+            <label for="512gb">512GB</label><br>
+            <input type="radio" id="1tb" name="storage" value="1TB">
+            <label for="1tb">1TB</label><br>
+          </div>
+          
+          <div>
+            <label for="displaysize">7. What size display do you prefer?</label><br>
+            <input type="radio" id="13-inch" name="displaysize" value="13 inch">
+            <label for="13-inch">13 inch</label><br>
+            <input type="radio" id="15-inch" name="displaysize" value="15 inch">
+            <label for="15-inch">15 inch</label><br>
+            <input type="radio" id="17-inch" name="displaysize" value="17 inch">
+            <label for="17-inch">17 inch</label><br>
+          </div>
+          
+          <div>
+            <label for="weight">8. How important is weight to you?</label><br>
+            <input type="radio" id="not-important" name="weight" value="Not Important">
+            <label for="not-important">Not Important</label><br>
+            <input type="radio" id="somewhat-important" name="weight" value="Somewhat Important">
+            <label for="somewhat-important">Somewhat Important</label><br>
+            <input type="radio" id="very-important" name="weight" value="Very Important">
+            <label for="very-important">Very Important</label><br>
+          </div>
+
+          <div>
+            <label for="displayres">8. display reslution?</label><br>
+            <input type="radio" id="not-important" name="displayres" value="Not Important">
+            <label for="not-important">Not Important</label><br>
+            <input type="radio" id="somewhat-important" name="displayres" value="Somewhat Important">
+            <label for="somewhat-important">Somewhat Important</label><br>
+            <input type="radio" id="very-important" name="displayres" value="Very Important">
+            <label for="very-important">Very Important</label><br>
+          </div>
+            
+          <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "644bce0b3eb922318f00b2b1"
+  },
+  "coimbatore": [
+    {
+      "name": "Anirudh shop",
+      "address": "123 street,coimbatore,tamilnadu",
+      "phone": "+918825447497",
+      "email": "shop1@example.com"
+    },
+    {
+      "name": "Ashwin shop",
+      "address": "456 Market Street",
+      "phone": "+918428658977",
+      "email": "shop2@example.com"
+    },
+    {
+      "name": "Dharsan Shop",
+      "address": "789 Broadway",
+      "phone": "555-555-3434",
+      "email": "shop3@example.com"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "644bce1b3eb922318f00b2b3"
+  },
+  "tirupur": [
+    {
+      "name": "Gokul shop",
+      "address": "123 Main Street",
+      "phone": "+918825447497",
+      "email": "shop1@example.com"
+    },
+    {
+      "name": "Abinaya Shop",
+      "address": "456 Market Street",
+      "phone": "+918220838150",
+      "email": "shop2@example.com"
+    },
+    {
+      "name": "moon prakash shop",
+      "address": "789 Broadway",
+      "phone": "+917397704359",
+      "email": "shop3@example.com"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "644bce273eb922318f00b2b5"
+  },
+  "erode": [
+    {
+      "name": "Anirudh shop",
+      "address": "123 Main Street",
+      "phone": "+918825447497",
+      "email": "shop1@example.com"
+    },
+    {
+      "name": "Asvin vt ",
+      "address": "456 Market Street",
+      "phone": "555-555-2323",
+      "email": "shop2@example.com"
+    },
+    {
+      "name": "Dhanush ",
+      "address": "789 Broadway",
+      "phone": "555-555-3434",
+      "email": "shop3@example.com"
+    }
+  ]
+}]

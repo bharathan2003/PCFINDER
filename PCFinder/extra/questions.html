@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Questions</title>
+</head>
+<body>
+	<h1>Questions</h1>
+	<form method="POST" action="/suggest_laptops">
+		{% if question_num > 0 %}
+			<input type="hidden" name="question_num" value="{{ question_num - 1 }}">
+			<input type="submit" value="Previous">
+		{% endif %}
+
+		{% if question_num < num_questions-1 %}
+			<input type="hidden" name="question_num" value="{{ question_num + 1 }}">
+			<input type="submit" value="Next">
+		{% else %}
+			<input type="submit" value="Submit">
+		{% endif %}
+		
+		{% if question_num == 0 %}
+			<label for="budget">What is your budget?</label><br>
+			<input type="radio" id="less-than-500" name="budget" value="less-than-500">
+			<label for="less-than-500">Less than $500</label><br>
+			<input type="radio" id="500-to-1000" name="budget" value="500-to-1000">
+			<label for="500-to-1000">$500 to $1000</label><br>
+			<input type="radio" id="more-than-1000" name="budget" value="more-than-1000">
+			<label for="more-than-1000">More than $1000</label><br>
+		{% elif question_num == 1 %}
+			<label for="os">What operating system do you prefer?</label><br>
+			<input type="radio" id="windows" name="os" value="Windows">
+			<label for="windows">Windows</label><br>
+			<input type="radio" id="macos" name="os" value="macOS">
+			<label for="macos">macOS</label><br>
+			<input type="radio" id="linux" name="os" value="Linux">
+			<label for="linux">Linux</label><br>
+		{% elif question_num == 2 %}
+			<label for="primary_use">What will be the primary use of the laptop?</label><br>
+			<input type="radio" id="work" name="primary_use" value="Work">
+			<label for="work">Work</label><br>
+			<input type="radio" id="multimedia" name="primary_use" value="Multimedia">
+			<label for="multimedia">Multimedia</label><br>
+			<input type="radio" id="gaming" name="primary_use" value="Gaming">
+			<label for="gaming">Gaming</label><br>
+			<input type="radio" id="browsing" name="primary_use" value="Browsing">
+			<label for="browsing">Browsing</label><br>
+		{% endif %}	</form>
+</body>
+</html>

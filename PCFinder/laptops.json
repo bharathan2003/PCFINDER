@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "6444f51f41c9b2b334829eb2"
+  },
+  "Name": "MacBook Pro",
+  "Price": 900,
+  "OS": "Mac OS",
+  "PrimaryUse": "Gaming",
+  "description": "Super Charge Pro-level workflows.Liquid Retina XDR display",
+  "image_url": "https://www.apple.com/newsroom/images/product/mac/standard/Apple-MacBook-Pro-M2-Pro-and-M2-Max-hero-230117.jpg.og.jpg?202303301814",
+  "battery": "5120 MAh",
+  "ram": "32 GB",
+  "Stroage": "1 TB",
+  "Display": "16.2 inches XDR",
+  "Weight": "2.1kg",
+  "Rank": 1,
+  "Rating": 5
+},{
+  "_id": {
+    "$oid": "6444f83a41c9b2b334829eb4"
+  },
+  "Name": "Acer Nitro 5 12th Gen",
+  "Price": 94000,
+  "OS": "Windows",
+  "PrimaryUse": "Gaming",
+  "description": "Colour gamut covers about 72% of the NTSC gamut",
+  "image_url": "https://static-ecapac.acer.com/media/mf_webp/jpg/media/catalog/product/cache/a2e755bb2f5b00fa33d64eface9107e3/u/n/untitled-1_7_6.webp",
+  "battery": "Upto 10 hrs",
+  "ram": "8 GB",
+  "Stroage": "512GB",
+  "Display": "15.6 inches IPS",
+  "Weight": "2.2kg",
+  "Rank": 10,
+  "Rating": 4,
+  "Processor": "Intel core i7"
+},{
+  "_id": {
+    "$oid": "6444fc4541c9b2b334829eb7"
+  },
+  "Name": "Hp pavilion Plus",
+  "Price": 94000,
+  "OS": "Windows",
+  "PrimaryUse": "Coding",
+  "description": "Professional Works like coding ,Normal usage and little bit of gaming",
+  "image_url": "https://images.hindustantimes.com/tech/img/2022/07/18/1600x900/IMG_4316_1658126389416_1658126408126_1658126408126.jpg",
+  "battery": "4000 Mah",
+  "ram": "16 GB",
+  "Stroage": "1 TB",
+  "Display": "14.2 inches OLED",
+  "Weight": "1.8kg",
+  "Rank": 3,
+  "Rating": 4.7,
+  "Processor": "Intel core i7"
+},{
+  "_id": {
+    "$oid": "64450150f05b1fbbf22f9e2a"
+  },
+  "Name": "ASUS VivoBook GO 15",
+  "Price": 53000,
+  "OS": "Windows",
+  "PrimaryUse": "School usage",
+  "description": "Normal usage for watching youtube,normal coding,watch movies,etc.",
+  "image_url": "https://dlcdnwebimgs.asus.com/gain/b76652a1-01bf-4a44-8bfe-a0765540abc4/",
+  "battery": "3600 MAh",
+  "ram": "32 GB",
+  "Stroage": "512 GB",
+  "Display": "15.6 inches LED",
+  "Weight": "1.6kg",
+  "Rank": 15,
+  "Rating": 4,
+  "Processor": "AMD Ryzen 5 U"
+},{
+  "_id": {
+    "$oid": "64450371f05b1fbbf22f9e2c"
+  },
+  "Name": "Dell Inspiron 15",
+  "Price": 57000,
+  "OS": "Windows",
+  "PrimaryUse": "Moderate Coding purpose",
+  "description": "Good performance at average cost and all other office works",
+  "image_url": "https://www.u-buy.jp/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNzFuUDZsVG9nakwuX0FDX1NMMTUwMF8uanBn.jpg",
+  "battery": "3600 MAh",
+  "ram": "8 GB",
+  "Stroage": "512 GB",
+  "Display": "15.0 inches LED",
+  "Weight": "1.8kg",
+  "Rank": 8,
+  "Rating": 4.3,
+  "Processor": "Intel core i5"
+}]
